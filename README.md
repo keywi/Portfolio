@@ -1,2 +1,2 @@
 # Portfoilo
- GRaduate portflio
+ Graduate portfolio

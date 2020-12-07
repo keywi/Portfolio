@@ -23,7 +23,7 @@ audio.play();
 
 
 
-</script><tw-tag name="UI" color="green"></tw-tag>,<tw-tag name="angel" color="gray"></tw-tag>,<tw-tag name="ending" color="blue"></tw-tag>,<tw-tag name="startup" color="red"></tw-tag><tw-passagedata pid="1" name="BOOK" tags="opening" position="25,775" size="200,200">
+</script><tw-tag name="UI" color="green"></tw-tag>,<tw-tag name="angel" color="gray"></tw-tag>,<tw-tag name="ending" color="blue"></tw-tag>,<tw-tag name="startup" color="red"></tw-tag><tw-passagedata pid="1" name="BOOK" tags="opening" position="50,850" size="200,200">
 (text-style:&quot;bold&quot;)[Sea of Glass] 
 
 (text-rotate:45)+(text-style:&quot;superscript&quot;)[Written by]
@@ -38,41 +38,33 @@ audio.play();
 
 
 
-</tw-passagedata><tw-passagedata pid="2" name="I don&#39;t know" tags="" position="525,575" size="100,100">[[Try to remember who you are]]
-[[Listen]]
-
-(dropdown: bind $h, &quot;MAP&quot;, &quot;BOOK&quot;, &quot;FRAGMENTS&quot;)
-
-(live: 0.2s)[\
-(if: $h is &quot;MAP&quot;)[(set: $items to &quot;[[MAP]]&quot;)]\
-(if: $h is &quot;BOOK&quot;)[(set: $items to &quot;[[BOOK]]&quot;)]\
-(if: $h is &quot;FRAGMENTS&quot;)[(set: $items to &quot;[[FRAGMENTS]]&quot;)]\
-Take a look at your $items]</tw-passagedata><tw-passagedata pid="3" name="I am me" tags="ending" position="325,175" size="100,100">(background: (gradient: 0, 0,red, 1,black)) [“Maturity, one discovers, has everything to do with the acceptance of &#39;not knowing.&#39; ” 
+</tw-passagedata><tw-passagedata pid="2" name="I am me" tags="ending" position="350,250" size="100,100">(background: (gradient: 0, 0,red, 1,black)) [“Maturity, one discovers, has everything to do with the acceptance of &#39;not knowing.&#39; ” 
 ― Mark Z. Danielewski, //House of Leaves//]
 
 [[open the book -&gt;BOOK]]  
 
 
 
-</tw-passagedata><tw-passagedata pid="4" name="Try to remember who you are" tags="" position="425,775" size="200,100">The Voice calls to you once more.
+</tw-passagedata><tw-passagedata pid="3" name="Try to remember who you are" tags="" position="400,900" size="200,100">The Voice calls to you once more.
 (align: &quot;==&gt;&quot;)[If you cannot remember who you are,](align:&quot;==&gt;&quot;)+(text-style:&quot;blur&quot;)[do you know who you want to be?]
 
-[[Listen]] 
+[[Listen-&gt;Accept this as who you are]] 
 [[I want to...]]
-</tw-passagedata><tw-passagedata pid="5" name="Listen" tags="" position="725,575" size="100,100">I can tell you who you are. 
-(text-style:&quot;blur&quot;)[Do you want that?]
-
-[[Yes]]
-[[Try to remember who you are]] </tw-passagedata><tw-passagedata pid="6" name="I want to..." tags="hub" position="325,1275" size="100,200">[[BOOK]]
+</tw-passagedata><tw-passagedata pid="4" name="I want to..." tags="hub" position="350,1350" size="100,200">[[Close the Book-&gt;BOOK]] 
 [[Be normal-&gt;A]]
 
-</tw-passagedata><tw-passagedata pid="7" name="Yes" tags="" position="925,575" size="100,100">You are the last of your kind–the last citizen of the (colour: cyan)[Sea of Glass]. When you wake up, you&#39;ll be in the (colour:grey)[City of the Drowned God]. 
+</tw-passagedata><tw-passagedata pid="5" name="Yes" tags="" position="800,600" size="100,100">You are the last of your kind–the last citizen of the (colour: cyan)[Sea of Glass]. When you wake up, you&#39;ll be in the (colour:grey)[City of the Drowned God]. 
 (align: &quot;==&gt;&quot;)[You will no longer be alone when you wake.] 
 
 You can always change your memory.
 
+I can tell you who you are. 
+(text-style:&quot;blur&quot;)[Do you want that?]
+
+
+[[Try to remember who you are]] 
 [[Accept this as who you are]]
-[[Try to remember who you are]]</tw-passagedata><tw-passagedata pid="8" name="Accept this as who you are" tags="surrealist-city angel" position="1125,575" size="100,100">The forgotten (colour:grey)[City of a Drowned God] thrived long before the old angels cried and life brought ruin to the world. The (colour:grey)[city] stood for as long as the first breath and dreams took to fade with our memory of our (colour:grey)[Drowned God]. With this fading, so, too, do the ideals of life &amp; happiness from our forethought. The (colour:grey)[city] now becomes a prison, caging your ideas and your life in its cold stone walls. Our sanity and hope of our own salvation drain from the (colour:grey)[Drowned God]. 
+</tw-passagedata><tw-passagedata pid="6" name="Accept this as who you are" tags="surrealist-city angel" position="1100,900" size="100,100">The forgotten (colour:grey)[City of a Drowned God] thrived long before the old angels cried and life brought ruin to the world. The (colour:grey)[city] stood for as long as the first breath and dreams took to fade with our memory of our (colour:grey)[Drowned God]. With this fading, so, too, do the ideals of life &amp; happiness from our forethought. The (colour:grey)[city] now becomes a prison, caging your ideas and your life in its cold stone walls. Our sanity and hope of our own salvation drain from the (colour:grey)[Drowned God]. 
 
 Wrought with the life once lost in the sonnet of ethereal matter–you cross the bridge of hope and life. This life is believed to be found in the hopes of the lost, where their tears are ever forgotten. In the (colour:grey)[City of a Drowned God], His hope is lain to the self-righteous who hark the end of humanities’ suicide. The Death of our previous dreams were longing for the Angel; as this Angel weeps, so does humanity.
 	Angels weep for those who do not find this world to be such a gift.  
@@ -80,7 +72,7 @@ Wrought with the life once lost in the sonnet of ethereal matter–you cross the
 	(align: &quot;==&gt;&quot;)[When you are told to kill everything you hate about yourself,](align: &quot;==&gt;&quot;)+(text-style:&quot;blur&quot;)[what do you do when there is nothing left?]
 	
 	[[Continue]]
-	[[Turn back]]</tw-passagedata><tw-passagedata pid="9" name="Continue" tags="surrealist-city" position="1325,375" size="100,100">You find yourself here, in the (colour:grey)[city] of a (colour:grey)[god] humanity drowned and forgot. This (colour:grey)[city], a haven and prison for those like you, is alone and afraid–yet calm and collected. You wander up to the tall gates of the (colour:grey)[city]...or is it truly a prison? 
+	[[Turn back]]</tw-passagedata><tw-passagedata pid="7" name="Continue" tags="surrealist-city" position="1325,475" size="100,100">You find yourself here, in the (colour:grey)[city] of a (colour:grey)[god] humanity drowned and forgot. This (colour:grey)[city], a haven and prison for those like you, is alone and afraid–yet calm and collected. You wander up to the tall gates of the (colour:grey)[city]...or is it truly a prison? 
 
 (align: &quot;=&gt;&lt;==&quot;)[Your ears 
 ring with
@@ -97,9 +89,9 @@ heartbeat.]
 
 Your heart pumping too fast and taking the breath from your lungs so you drown on the air you need to breathe.  
 (align: &quot;==&gt;&quot;)+(text-style:&quot;blur&quot;)[Ironic isn’t it?]
-[[Open the gates]]</tw-passagedata><tw-passagedata pid="10" name="Turn back" tags="" position="1325,575" size="100,100">[[Try to wake up]]</tw-passagedata><tw-passagedata pid="11" name="Open the gates" tags="surrealist-city" position="1525,375" size="100,100">The gates close behind you, trapping you in this (colour:grey)[city] for the next few hours or days.  You’ve visited this (colour:grey)[city] for the past 12 years but never explored it, never moving past the first house on the street. If you enter this exact house, you  will claim it as yours. It seems comfortable, but at the same time you feel unwelcome. 
+[[Open the gates]]</tw-passagedata><tw-passagedata pid="8" name="Turn back" tags="" position="1325,675" size="100,100">[[Try to wake up]]</tw-passagedata><tw-passagedata pid="9" name="Open the gates" tags="surrealist-city" position="1525,475" size="100,100">The gates close behind you, trapping you in this (colour:grey)[city] for the next few hours or days.  You’ve visited this (colour:grey)[city] for the past 12 years but never explored it, never moving past the first house on the street. If you enter this exact house, you  will claim it as yours. It seems comfortable, but at the same time you feel unwelcome. 
 (align: &quot;==&gt;&quot;)+(text-style:&quot;blur&quot;)[You are the only one in this city.]
-[[Enter the House -&gt;F]] </tw-passagedata><tw-passagedata pid="12" name="F" tags="hub" position="1700,400" size="200,200">The house consists of a small room with two doors laid before you. A bed lies in the corner of the room. The room&#39;s vast expance makes it appear immeasurably larger than it actaully is. You feel as if the walls are closing around you and the suffocating feeling from the (colour:grey)[city]&#39;s streets creeps up your spine; you feel like you //must// choose:
+[[Enter the House -&gt;F]] </tw-passagedata><tw-passagedata pid="10" name="F" tags="hub" position="1725,500" size="200,200">The house consists of a small room with two doors laid before you. A bed lies in the corner of the room. The room&#39;s vast expance makes it appear immeasurably larger than it actaully is. You feel as if the walls are closing around you and the suffocating feeling from the (colour:grey)[city]&#39;s streets creeps up your spine; you feel like you //must// choose:
 [[Go back to bed]]
 [[The right door]]
 [[The left door]]
@@ -113,19 +105,19 @@ Your heart pumping too fast and taking the breath from your lungs so you drown o
 (if: $h is &quot;MAP&quot;)[(set: $items to &quot;[[MAP]]&quot;)]\
 (if: $h is &quot;BOOK&quot;)[(set: $items to &quot;[[BOOK]]&quot;)]\
 (if: $h is &quot;FRAGMENTS&quot;)[(set: $items to &quot;[[FRAGMENTS]]&quot;)]\
-Take a look at your $items]</tw-passagedata><tw-passagedata pid="13" name="A" tags="office-life" position="625,1275" size="100,100">//Another morning, another day//–you sigh, getting out of bed. Your alarm went off at 6:30 am sharp. As you roll out of bed, you push your blackout curtains from the window. The sun filters in and your eyes dull in the light. Hair a mess, your still are wearing your shirt from last night, which you didn’t bother to take off after work—well at least you took your tie off; the pencil-thin black tie laid on your desk next to your car keys and phone. You sigh once more and unbutton the rumpled dress shirt and throw it on the floor. You stand in front of the mirror; ^^buy light bulbs^^ is written on a sticky note taped to the corner. You reach over to flip the light switch on. 
+Take a look at your $items]</tw-passagedata><tw-passagedata pid="11" name="A" tags="office-life" position="725,1375" size="100,100">//Another morning, another day//–you sigh, getting out of bed. Your alarm went off at 6:30 am sharp. As you roll out of bed, you push your blackout curtains from the window. The sun filters in and your eyes dull in the light. Hair a mess, your still are wearing your shirt from last night, which you didn’t bother to take off after work—well at least you took your tie off; the pencil-thin black tie laid on your desk next to your car keys and phone. You sigh once more and unbutton the rumpled dress shirt and throw it on the floor. You stand in front of the mirror; ^^buy light bulbs^^ is written on a sticky note taped to the corner. You reach over to flip the light switch on. 
 [[Flip the light switch]]
-[[Go back to bed]]</tw-passagedata><tw-passagedata pid="14" name="Flip the light switch" tags="office-life" position="900,1275" size="100,100">Nothing.  
+[[Go back to bed]]</tw-passagedata><tw-passagedata pid="12" name="Flip the light switch" tags="office-life" position="1025,1375" size="100,100">Nothing.  
 You forgot to buy ^^light bulbs^^ again–that marks a week now. You look at yourself in the dim light, reflected in the mirror: (text-style: &quot;blur&quot;)[tall and thin...a walking skeleton]. You ruffle your hair and look for a clean dress shirt and pants. You throw them on and fiddle with your hair again. You take one last look at the ^^buy light bulbs^^ and out of habit flip the light switch off, leaving your outpost for work once more.
-[[Walk outside -&gt;B]]</tw-passagedata><tw-passagedata pid="15" name="Go back to bed" tags="hub" position="625,975" size="200,100">[[Try to wake up]]
-[[Listen]]</tw-passagedata><tw-passagedata pid="16" name="B" tags="office-life" position="1150,1275" size="100,100">You walk into the empty street, shrugging your jacket on to save you from  the cold, then surrender yourself to the somber recollection of your day. Going to your downtown coding job to write lines and lines of strings of commands for simple things to work. You never really understood what brought you here with your skill set. You coasted through school wandering the empty halls and did your work.  
+[[Walk outside -&gt;B]]</tw-passagedata><tw-passagedata pid="13" name="Go back to bed" tags="hub" position="700,1100" size="200,100">[[Try to wake up]]
+</tw-passagedata><tw-passagedata pid="14" name="B" tags="office-life" position="1250,1375" size="100,100">You walk into the empty street, shrugging your jacket on to save you from  the cold, then surrender yourself to the somber recollection of your day. Going to your downtown coding job to write lines and lines of strings of commands for simple things to work. You never really understood what brought you here with your skill set. You coasted through school wandering the empty halls and did your work.  
 
 	Your walk to work isn’t a long one, just cold and empty; there are no cars on the road this early.
 	
 You get to work, hang up your coat and sit down at your desk in the far corner; you are the only one who works around this time–maybe you did this on purpose, (text-style:&quot;blur&quot;)[you don’t remember.]
 
 You remember again, maybe, to get ^^light bulbs^^. Either way it’s already lunch and you will soon forget. You sit at your desk and eat your sandwich you bought at the store downstairs in the small market like you do every day. A sigh escapes your lips as you flip though the book you keep in your desk. It’s the same one you’ve read for the past seven years, but never the last chapter. You always said you’d read the end this time, but you never quite got there.
-[[Read the book]]</tw-passagedata><tw-passagedata pid="17" name="Read the book" tags="office-life" position="1325,1275" size="100,100">Just some small book about people you don’t know nor enjoy the company of, but you keep reading it anyway. You finish your sandwich and stare at the last chapter of the book called (colour:&#39;grey&#39;)[‘City of the Drowned God.’] You mutter to yourself //“they never make it out of the city do they?”// 
+[[Read the book]]</tw-passagedata><tw-passagedata pid="15" name="Read the book" tags="office-life" position="1425,1375" size="100,100">Just some small book about people you don’t know nor enjoy the company of, but you keep reading it anyway. You finish your sandwich and stare at the last chapter of the book called (colour:&#39;grey&#39;)[‘City of the Drowned God.’] You mutter to yourself //“they never make it out of the city do they?”// 
 
 “Are you ever going to finish that book?” a voice pipes up from behind you, causing you to jump. It&#39;s your cube mate from across the way. You don&#39;t remember her name, but she’s always been nice to you. 
 
@@ -133,7 +125,7 @@ You shake your head and mumble something back about how you don’t think you wi
 
 You wander blankly to the restroom to look at yourself in the mirror: some (text-style:&quot;blur&quot;) [empty skeleton in a lost pale world]. You turn the faucet on and splash your face with the water. Reality seems to (text-style: &quot;fade-in-out&quot;)[fade for a while.]
 [[Nothing is real when its raining-&gt;D]] 
-[[Did you finish the report I asked for this morning?]] </tw-passagedata><tw-passagedata pid="18" name="D" tags="" position="2225,275" size="200,100">…You find yourself in the outpost in the (colour:&#39;grey&#39;)[lost city]–the sound of rain in your ears and the air thick with fog. Maybe today you’ll leave the outpost. There’s a small park not far; you have no idea how you know this, but you have an urge to go. The city still feels so empty but at the same time you feel more at home. Wandering the streets of the lost and lonely, darkness looms around you. You place a hand on the gate to the park: (text-style:&quot;blur&quot;) [tall stone fencing covered in vines.] 
+[[Did you finish the report I asked for this morning?]] </tw-passagedata><tw-passagedata pid="16" name="D" tags="" position="2225,375" size="200,100">…You find yourself in the outpost in the (colour:&#39;grey&#39;)[lost city]–the sound of rain in your ears and the air thick with fog. Maybe today you’ll leave the outpost. There’s a small park not far; you have no idea how you know this, but you have an urge to go. The city still feels so empty but at the same time you feel more at home. Wandering the streets of the lost and lonely, darkness looms around you. You place a hand on the gate to the park: (text-style:&quot;blur&quot;) [tall stone fencing covered in vines.] 
 You return to your desk at work.
 [[Did you finish the report I asked for this morning?]]
 
@@ -148,17 +140,17 @@ You return to your desk at work.
 (if: $h is &quot;FRAGMENTS&quot;)[(set: $items to &quot;[[FRAGMENTS]]&quot;)]\
 Take a look at your $items]
 
-(set: $fragments to it + 1)</tw-passagedata><tw-passagedata pid="19" name="The right door" tags="surrealist-city" position="2000,575" size="100,100">The right door opens into a strange part of the (colour: grey)[city]. You feel unsettled by everything around you. Tall spires of stone houses loom over you, seeming as if they are threatening to fall–crushing you. The air is thick with fog, that which settles on unfamilar twisted streets. 
+(set: $fragments to it + 1)</tw-passagedata><tw-passagedata pid="17" name="The right door" tags="surrealist-city" position="2025,675" size="100,100">The right door opens into a strange part of the (colour: grey)[city]. You feel unsettled by everything around you. Tall spires of stone houses loom over you, seeming as if they are threatening to fall–crushing you. The air is thick with fog, that which settles on unfamilar twisted streets. 
 
 
 
 
 [[Return to the house]]
-[[Continue deeper into the city]]</tw-passagedata><tw-passagedata pid="20" name="The left door" tags="" position="2025,275" size="100,100">[[Nothing is real when its raining-&gt;D]]  </tw-passagedata><tw-passagedata pid="21" name="Return to the house" tags="" position="2225,475" size="100,100">The house is still and empty, now with vines growing around the skeleton of the house. 
+[[Continue deeper into the city]]</tw-passagedata><tw-passagedata pid="18" name="The left door" tags="" position="2025,375" size="100,100">[[Nothing is real when its raining-&gt;D]]  </tw-passagedata><tw-passagedata pid="19" name="Return to the house" tags="" position="2225,575" size="100,100">The house is still and empty, now with vines growing around the skeleton of the house. 
 Percisely to the left of the entryway, you see a set of stairs that lead [[upwards]]; you&#39;ve never noticed them before. 
 [[Enter the house -&gt;F]]  
 [[Turn back]] 
-</tw-passagedata><tw-passagedata pid="22" name="Continue deeper into the city" tags="hub" position="1725,775" size="200,200">The streets twist and turn around you like a spider spinning a web of asphalt. You vaguely remember this as the layout of the city you lived in. It starts to rain so softly, like your ex-lover&#39;s fingertips on your skin; you shrug it off and turn your collar up. You press further into (colour:grey)[the city], the streets empty and grey. Color is fleeting as you wander to the park that you used to spend your lunches at before everything came crashing down around you and you ended up in a lost ocean of worry. As you walk around this empty (colour:grey)[city, it] begins to  mimic your own. Finding a strange sense of calm, you sit next to a lake in the dead center of the park. The water softly laps against the shore as you stare off blankly into the silence–which is then broken by a small (colour:yellow)[bird.]
+</tw-passagedata><tw-passagedata pid="20" name="Continue deeper into the city" tags="hub" position="1725,875" size="200,200">The streets twist and turn around you like a spider spinning a web of asphalt. You vaguely remember this as the layout of the city you lived in. It starts to rain so softly, like your ex-lover&#39;s fingertips on your skin; you shrug it off and turn your collar up. You press further into (colour:grey)[the city], the streets empty and grey. Color is fleeting as you wander to the park that you used to spend your lunches at before everything came crashing down around you and you ended up in a lost ocean of worry. As you walk around this empty (colour:grey)[city, it] begins to  mimic your own. Finding a strange sense of calm, you sit next to a lake in the dead center of the park. The water softly laps against the shore as you stare off blankly into the silence–which is then broken by a small (colour:yellow)[bird.]
 
 [[Follow the bird]]
 [[Try to wake up]] 
@@ -177,14 +169,14 @@ Percisely to the left of the entryway, you see a set of stairs that lead [[upwar
 (if: $h is &quot;MAP&quot;)[(set: $items to &quot;[[MAP]]&quot;)]\
 (if: $h is &quot;BOOK&quot;)[(set: $items to &quot;[[BOOK]]&quot;)]\
 (if: $h is &quot;FRAGMENTS&quot;)[(set: $items to &quot;[[FRAGMENTS]]&quot;)]\
-Take a look at your $items]</tw-passagedata><tw-passagedata pid="23" name="Did you finish the report I asked for this morning?" tags="" position="1925,1275" size="100,100">“Did you finish the report I asked for this morning?” your boss says standing over you as you sit at your corner desk. You blink at him for a few moments then nod and mumble, never making eye contact.
+Take a look at your $items]</tw-passagedata><tw-passagedata pid="21" name="Did you finish the report I asked for this morning?" tags="" position="2025,1375" size="100,100">“Did you finish the report I asked for this morning?” your boss says standing over you as you sit at your corner desk. You blink at him for a few moments then nod and mumble, never making eye contact.
 
 “Yes I sent the email before lunch and printed a copy and placed in your inbox.” 
 
 “Oh I didn&#39;t check, sorry.” He says, “Hey cheer up there&#39;s nothing to be sad about you&#39;re probably up for a raise soon.” He chuckles and pats your back as you desperately try not to flinch away from the unwanted contact.
 
 You sit at your desk and respond to emails before you go back to writing those lines and lines of code that your boss wants you to finish by the end of the month. The day goes on and you wander around (colour:&#39;grey&#39;)[ the lost city in your mind, alone and undisturbed. The city streets slowly lose more and more color as you explore this world that you have built for your] (text-style:&quot;blur&quot;)[corpse.]
-[[Your phone rings -&gt;C]] </tw-passagedata><tw-passagedata pid="24" name="C" tags="" position="2400,1500" size="100,100">You’re brought back to reality as your phone goes off–your friend babbling excitedly about a poem they wrote, so much so they read it to you and you just stare blankly at your computer screen as they read it to you. You don’t really pay attention to what they’ve read to you, but you somehow agree to get drinks with them after work. They then read to you nice words of how they hope you’re doing better.  
+[[Your phone rings -&gt;C]] </tw-passagedata><tw-passagedata pid="22" name="C" tags="" position="2425,1575" size="100,100">You’re brought back to reality as your phone goes off–your friend babbling excitedly about a poem they wrote, so much so they read it to you and you just stare blankly at your computer screen as they read it to you. You don’t really pay attention to what they’ve read to you, but you somehow agree to get drinks with them after work. They then read to you nice words of how they hope you’re doing better.  
 
 You glance over at the clock and it reads 5:48 pm. You’ve been here since 8:00 am. You always stay late on these days; your boss doesn’t mind paying you overtime; your work is done well and that forgives your blank personality. Once it reaches around 7:00 pm, you get your jacket and bag as you pack up to leave. (text-style:&#39;blur&#39;)[You’re the last one.] You turn all the ^^lights^^ off one by one in the office like your boss has always requested of you.
 [[Walk home]]
@@ -197,10 +189,10 @@ You glance over at the clock and it reads 5:48 pm. You’ve been here since 8:00
 (if: $h is &quot;MAP&quot;)[(set: $items to &quot;[[MAP]]&quot;)]\
 (if: $h is &quot;BOOK&quot;)[(set: $items to &quot;[[BOOK]]&quot;)]\
 (if: $h is &quot;FRAGMENTS&quot;)[(set: $items to &quot;[[FRAGMENTS]]&quot;)]\
-Take a look at your $items]</tw-passagedata><tw-passagedata pid="25" name="Walk home" tags="" position="2600,1250" size="100,100">The city is busy with people rushing around you. Too many people and too many voices. A suffocating feeling creeps into your lungs; the city looms and you feel smoothered by everything as you wait to cross the street with the other lemmings. Before you cross the road, a bird flies over and perches on your hand. It is a (colour: yellow)[golden bird].
-[[Follow the bird]] </tw-passagedata><tw-passagedata pid="26" name="Go to the bar to meet your friend" tags="" position="2600,1550" size="100,200">You enter the bar–already forgetting the name of it just as soon as your eyes drift away from the sign. They are sitting at the bar, smoke drifting around their hair. You stand frozen at the entrance–all the voices and noises suffocating you. The clanging of the kitchen takes you back to when you were in university...
+Take a look at your $items]</tw-passagedata><tw-passagedata pid="23" name="Walk home" tags="" position="2625,1375" size="100,100">The city is busy with people rushing around you. Too many people and too many voices. A suffocating feeling creeps into your lungs; the city looms and you feel smoothered by everything as you wait to cross the street with the other lemmings. Before you cross the road, a bird flies over and perches on your hand. It is a (colour: yellow)[golden bird].
+[[Follow the bird]] </tw-passagedata><tw-passagedata pid="24" name="Go to the bar to meet your friend" tags="" position="2625,1575" size="100,200">You enter the bar–already forgetting the name of it just as soon as your eyes drift away from the sign. They are sitting at the bar, smoke drifting around their hair. You stand frozen at the entrance–all the voices and noises suffocating you. The clanging of the kitchen takes you back to when you were in university...
 [[Walk to your friend]]
-[[Saint Serenity-&gt;E]] </tw-passagedata><tw-passagedata pid="27" name="Follow the bird" tags="" position="2800,1200" size="100,200">The (colour: yellow)[bird] flies down the sidewalk; you follow at a slow pace. The (colour: yellow)[bird] seems to circle back, then leads you around the city and to areas you&#39;ve never been before. You wander the real world– (text-style: &quot;fade-in-out&quot;)[fading around you]– as you phase into (colour: grey)[The City]. The empty streets welcome you as an (text-style:&quot;blur&quot;) [old friend]. There is a loud (text-style:&quot;outline&quot;)[clanging] in the distance and the (colour: yellow)[bird] seems to try and lead you towards it.
+[[Saint Serenity-&gt;E]] </tw-passagedata><tw-passagedata pid="25" name="Follow the bird" tags="" position="2825,1275" size="100,200">The (colour: yellow)[bird] flies down the sidewalk; you follow at a slow pace. The (colour: yellow)[bird] seems to circle back, then leads you around the city and to areas you&#39;ve never been before. You wander the real world– (text-style: &quot;fade-in-out&quot;)[fading around you]– as you phase into (colour: grey)[The City]. The empty streets welcome you as an (text-style:&quot;blur&quot;) [old friend]. There is a loud (text-style:&quot;outline&quot;)[clanging] in the distance and the (colour: yellow)[bird] seems to try and lead you towards it.
 
 [[Go to the bar to meet your friend]]
 
@@ -213,7 +205,7 @@ Take a look at your $items]</tw-passagedata><tw-passagedata pid="25" name="Walk 
 (live: 0.2s)[\
 (if: $h is &quot;MAP&quot;)[(set: $items to &quot;[[MAP]]&quot;)]\
 (if: $h is &quot;BOOK&quot;)[(set: $items to &quot;[[BOOK]]&quot;)]\
-Take a look at your $items]</tw-passagedata><tw-passagedata pid="28" name="Try to wake up" tags="hub" position="1025,775" size="200,100">(text-rotate:45)+(text-style:&quot;superscript&quot;)[slowly] 
+Take a look at your $items]</tw-passagedata><tw-passagedata pid="26" name="Try to wake up" tags="hub" position="700,900" size="200,100">(text-rotate:45)+(text-style:&quot;superscript&quot;)[slowly] 
 (text-rotate:240)+(text-style:&quot;superscript&quot;) [falling] 
 (text-rotate:45)+(text-style:&quot;superscript&quot;) [through] 
 (text-rotate:240)+(text-style:&quot;superscript&quot;)  [the] 
@@ -223,7 +215,7 @@ you return to the [[Beginning]]
 
 
 
-</tw-passagedata><tw-passagedata pid="29" name="Hold on to this memory" tags="" position="3000,1200" size="100,100">Somehow, you rememeber something: 
+</tw-passagedata><tw-passagedata pid="27" name="Hold on to this memory" tags="" position="3025,1275" size="100,100">Somehow, you rememeber something: 
 
 (align: &quot;=&gt;&lt;==&quot;)[You were a small child; your parents were eating dinner in the kitchen, laughing softly to one another. You were standing on the stairs, listening, holding your breath. If your parents heard you, they would be upset and this moment would be (text-style: &quot;fade-in-out&quot;)[gone.]] 
 
@@ -237,27 +229,27 @@ Your father walks up and embraces her, **we will always have [[time]]**
 **I adore you**
 
 
-[[A sound pierces the memory]]</tw-passagedata><tw-passagedata pid="30" name="E" tags="" position="2800,1700" size="100,100">	Its late–you&#39;re cleaning the bar you work at; a few of the patrons are asleep at the high top tables but you don&#39;t mind them. You can send them away after you&#39;ve done your closing tasks. 
+[[A sound pierces the memory]]</tw-passagedata><tw-passagedata pid="28" name="E" tags="" position="2825,1775" size="100,100">	Its late–you&#39;re cleaning the bar you work at; a few of the patrons are asleep at the high top tables but you don&#39;t mind them. You can send them away after you&#39;ve done your closing tasks. 
 	The door opens and the bell jingles softly–you swore you locked it. You turn around and start muttering something along the lines of:  //sir, or madam, we are closed I&#39;m sorry I must send...// you recognise them and your heart jumps to your throat. Frozen, you watch them walk up to the bar. 
 **&quot;Get me a drink,&quot;** they demand. 
 	You rest your broom against the wall and walk behind the bar; you grab a bottle of something–it doesn&#39;t matter what–and poor it into a glass for them. 
 	You walk over and pick up the broom again... 
 [[HEY over here!!]]
 
-</tw-passagedata><tw-passagedata pid="31" name="HEY over here!!" tags="" position="3000,1550" size="100,200">Her voice sounds like sunshine–pulling you in more intensely as you dift closer. 
+</tw-passagedata><tw-passagedata pid="29" name="HEY over here!!" tags="" position="3025,1625" size="100,200">Her voice sounds like sunshine–pulling you in more intensely as you dift closer. 
 
 She says that her friends have a table in the back corner. Some of them you know from university, others you do not. You walk over with her and sit down in the corner. Everyone laughs at her jokes and she is full of (text-style:&quot;smear&quot;)[light] and happiness. 
 You feel like you don&#39;t [[belong]].
 A song plays that reminds you of Saint Serenity again. It’s an [[old]] song and you still remember it.
-</tw-passagedata><tw-passagedata pid="32" name="Walk to your friend" tags="" position="2800,1500" size="100,100">You thought you saw her, but it&#39;s so loud and everyone looks the exact same. Everything starts blending into one another– faces turning monstruous and they are all looking at you. Laughing–shouting, all at  you. Your chest starts to hurt and you start scratching softly at your arm. 
+</tw-passagedata><tw-passagedata pid="30" name="Walk to your friend" tags="" position="2825,1575" size="100,100">You thought you saw her, but it&#39;s so loud and everyone looks the exact same. Everything starts blending into one another– faces turning monstruous and they are all looking at you. Laughing–shouting, all at  you. Your chest starts to hurt and you start scratching softly at your arm. 
 
-[[HEY over here!!]] </tw-passagedata><tw-passagedata pid="33" name="belong" tags="" position="3200,1600" size="100,100">Always feel like you don&#39;t belong. Always second guessing yourself–thinking your friends hate you. Always lingering just long enough in a friend group to become a ghost in the back of peoples&#39; memories. Photographs of you fade in the background–surrounded by laughs and smiles that mearly echo. 
+[[HEY over here!!]] </tw-passagedata><tw-passagedata pid="31" name="belong" tags="" position="3225,1675" size="100,100">Always feel like you don&#39;t belong. Always second guessing yourself–thinking your friends hate you. Always lingering just long enough in a friend group to become a ghost in the back of peoples&#39; memories. Photographs of you fade in the background–surrounded by laughs and smiles that mearly echo. 
 
 	The weight of everything crashes down once more and all you are left with is empty silence–echos of:
 	
 	(align: &quot;==&gt;&quot;)[When you are told to kill everything you hate about yourself,](align: &quot;==&gt;&quot;)+(text-style:&quot;blur&quot;)[what do you do when there is nothing left?]
 
-Looking around at all the blank faces at the bar, the same question you always ask youself returns: [[Run away]] or [[Stay]]. </tw-passagedata><tw-passagedata pid="34" name="old" tags="" position="3400,1200" size="100,200">You remember the boy who&#39;d come in at closing and threaten you every night. 
+Looking around at all the blank faces at the bar, the same question you always ask youself returns: [[Run away]] or [[Stay]]. </tw-passagedata><tw-passagedata pid="32" name="old" tags="" position="3425,1275" size="100,200">You remember the boy who&#39;d come in at closing and threaten you every night. 
 He would speak sweet nothings to you every morning before work and classes as you wake up to the soft sunlight peeking through your blackout curtains. Tear-stained cheeks and broken hearts litter the floor like trash and plastic cups. On your nightstand is the (colour: grey)[book]–you open it and float [[upwards]] towards (text-style: &quot;fade-in-out&quot;) [nothingness]. Your phone buzzes, an old friend contacting you out of the blue. You text back and forth for a [[while-&gt;Saint Serenity]]. 
 
 
@@ -269,7 +261,7 @@ He would speak sweet nothings to you every morning before work and classes as yo
 (if: $h is &quot;MAP&quot;)[(set: $items to &quot;[[MAP]]&quot;)]\
 (if: $h is &quot;BOOK&quot;)[(set: $items to &quot;[[BOOK]]&quot;)]\
 (if: $h is &quot;FRAGMENTS&quot;)[(set: $items to &quot;[[FRAGMENTS]]&quot;)]\
-Take a look at your $items]</tw-passagedata><tw-passagedata pid="35" name="Beginning" tags="" position="350,500" size="100,100">You wake up, 
+Take a look at your $items]</tw-passagedata><tw-passagedata pid="33" name="Beginning" tags="" position="450,550" size="100,100">You wake up, 
 (text-rotate:45)+(text-style:&quot;superscript&quot;)[slowly] 
 (text-rotate:240)+(text-style:&quot;superscript&quot;) [falling] 
 (text-rotate:45)+(text-style:&quot;superscript&quot;) [through] 
@@ -282,11 +274,15 @@ A voice calls in your head.
 (if: $map is true) +(text-style:&quot;smear&quot;)[You try to rememeber.]
 (if: $serenity is true) + (colour:black) [You try to rememeber.]
 (text-style:&quot;blur&quot;)[Who are you?]
-[[I don&#39;t know]]
-[[I am me]] 
+
+[[I Don&#39;t know -&gt;Yes]]
+[[I am me]]
+ 
 (if: $rain is true)[[Nothing is real when its raining-&gt;D]] (else:)[
-[[I don&#39;t know]]
-[[I am me]] ]
+
+[[I am me]] 
+[[Try to remember who you are]]
+]
 (if: $map is true)[[Continue deeper into the city]]
 (if: $serenity is true) [[Saint Serenity -&gt;Follow the bird]] 
 (if: $fragments is 0)[you have collected $fragments fragments]
@@ -295,32 +291,40 @@ A voice calls in your head.
 (if: $fragments is 3)[you have collected $fragments fragments]
 (if: $fragments is 4)[you have collected $fragments fragments]
 (if: $fragments is 5)[you have collected $fragments fragments]
+(dropdown: bind $h, &quot;MAP&quot;, &quot;BOOK&quot;, &quot;FRAGMENTS&quot;)
+
+(live: 0.2s)[\
+(if: $h is &quot;MAP&quot;)[(set: $items to &quot;[[MAP]]&quot;)]\
+(if: $h is &quot;BOOK&quot;)[(set: $items to &quot;[[BOOK]]&quot;)]\
+(if: $h is &quot;FRAGMENTS&quot;)[(set: $items to &quot;[[FRAGMENTS]]&quot;)]\
+Take a look at your $items]
+
 (if:$end is true)[[Credits]]
-</tw-passagedata><tw-passagedata pid="36" name="A sound pierces the memory" tags="" position="3200,1200" size="100,100">You try to hold on to this memeory of your childhood: listening to your parents fall in love all over again. 
+</tw-passagedata><tw-passagedata pid="34" name="A sound pierces the memory" tags="" position="3225,1275" size="100,100">You try to hold on to this memeory of your childhood: listening to your parents fall in love all over again. 
 Soon you&#39;re pulled into a memory of working at a bar as a teenager. 
 
 [You remember the music the most]–the old stereo in the corner playing pop-punk from when you were in highschool. The smoke from the regulars&#39; cigarettes makes the lights above cast a (text-style:&quot;smear&quot;)[hazy glow] all around you. Your coworker teaches you how to make white russians before she makes out with the barback.
 The door opens and (colour: &quot;red&quot;)[He] walks over to you as an [[old]] song plays on the stereo.  
 
 (set: $fragments to it + 1)
-(set: $serenity to true)</tw-passagedata><tw-passagedata pid="37" name="Go down the street towards the right" tags="" position="2200,800" size="100,100">You ignore the (colour: yellow)[bird]. Hope flys away upon its wings as you wander away from the park. Memories bleeding into the paining of this (colour: grey)[city]–laughs echo though the hallowed streets as you pass building after building. Shouting can be heard further into this labyrinthian (colour: grey)[city].  Mist settles on the streets like early morning regrets. You wander in a straight line until offered a choice: 
+(set: $serenity to true)</tw-passagedata><tw-passagedata pid="35" name="Go down the street towards the right" tags="" position="2225,875" size="100,100">You ignore the (colour: yellow)[bird]. Hope flys away upon its wings as you wander away from the park. Memories bleeding into the paining of this (colour: grey)[city]–laughs echo though the hallowed streets as you pass building after building. Shouting can be heard further into this labyrinthian (colour: grey)[city].  Mist settles on the streets like early morning regrets. You wander in a straight line until offered a choice: 
 
 
-[[maybe turn left -&gt;G]]  (align: &quot;==&gt;&quot;)[[maybe turn right]]</tw-passagedata><tw-passagedata pid="38" name="upwards" tags="ending" position="3125,175" size="100,100">Floating upwards, you find yourself in the electronics store down the street from your apartment. You scan the empty store looking for the ^^light bulbs^^. You smile to yourself, remembering this time to get the ^^light bulbs^^. You checkout the ^^light bulbs^^ at one of those self-checkout things, relieved to not have to interact with some (text-style:&quot;blur&quot;)[dead-eyed teen].  
+[[maybe turn left -&gt;G]]  (align: &quot;==&gt;&quot;)[[maybe turn right]]</tw-passagedata><tw-passagedata pid="36" name="upwards" tags="ending" position="3125,275" size="100,100">Floating upwards, you find yourself in the electronics store down the street from your apartment. You scan the empty store looking for the ^^light bulbs^^. You smile to yourself, remembering this time to get the ^^light bulbs^^. You checkout the ^^light bulbs^^ at one of those self-checkout things, relieved to not have to interact with some (text-style:&quot;blur&quot;)[dead-eyed teen].  
 You walk back home towards your apartment, proud of accomplishing the small task of bringing (text-style:&quot;smear&quot;)[light] back to your home. 
 
 Each night when you return home, you [[Close the Book-&gt;Beginning]].
- </tw-passagedata><tw-passagedata pid="39" name="Run away" tags="" position="3400,1700" size="100,100">You Run–like you always do. Dashing through rain-soaked people, you make your way down the street. Once you reach the place you call home, you [[Flip the light switch]]. </tw-passagedata><tw-passagedata pid="40" name="Stay" tags="" position="3400,1500" size="100,100">You swallow your fear and chase it down with vodka; your friend looks concerned, but you smile at her. This seems to quell her fear and you go about the evening–drink after drink. 
+ </tw-passagedata><tw-passagedata pid="37" name="Run away" tags="" position="3425,1775" size="100,100">You Run–like you always do. Dashing through rain-soaked people, you make your way down the street. Once you reach the place you call home, you [[Flip the light switch]]. </tw-passagedata><tw-passagedata pid="38" name="Stay" tags="" position="3425,1575" size="100,100">You swallow your fear and chase it down with vodka; your friend looks concerned, but you smile at her. This seems to quell her fear and you go about the evening–drink after drink. 
 
 Friends start to leave one by one, until you and your friend remain. She soon leaves a kiss on your cheek as her partner picks her up. 
 
-You walk home, alone but content with the night, through dimly lit streets. Upon reaching your home, you sit down at your desk. You take your phone out and order ^^light bulbs^^. You look out at the skyline of the sleeping city and for once, (text-style:&quot;smear&quot;)[you start to feel okay]. You open the book, flip to the last page and your [[emotions]] well inside you, before you finish reading you close the[[BOOK]] </tw-passagedata><tw-passagedata pid="41" name="Go down the street towards the the left" tags="" position="2200,1000" size="100,100">You leave the downtown and its (text-style:&quot;subscript&quot;)[tall buildings], now shrinking behind your back. The subburbs consist of identical homes in neat perfect little rows. 
+You walk home, alone but content with the night, through dimly lit streets. Upon reaching your home, you sit down at your desk. You take your phone out and order ^^light bulbs^^. You look out at the skyline of the sleeping city and for once, (text-style:&quot;smear&quot;)[you start to feel okay]. You open the book, flip to the last page and your [[emotions]] well inside you, before you finish reading you close the[[BOOK]] </tw-passagedata><tw-passagedata pid="39" name="Go down the street towards the the left" tags="" position="2225,1075" size="100,100">You leave the downtown and its (text-style:&quot;subscript&quot;)[tall buildings], now shrinking behind your back. The subburbs consist of identical homes in neat perfect little rows. 
 One of the houses is familar enough to you–you wander in. You are greeted by the dust of your childhood. You sit down on the floor of your old living room, lamenting on when it all went wrong–the day you left home to never come back; your parents miss you. They always miss you no matter where you are. When you come home, (colour:#008080)[I think], that is when they miss you the most. For you always leave, like a (text-style:&quot;blur&quot;)[ghost] fading into the (colour:black)[night]. You lay here for a while, tears from the memories you had forgotten stain the floor boards, creating little puddles like the ones you jumped in as a child. 
 
-You leave after a while to [[Go right]], heading back to the downtown area. </tw-passagedata><tw-passagedata pid="42" name="Go right" tags="" position="2400,950" size="100,100">The maw of the city reaches out to you, threatening to swallow you whole if you lose your way. How will you know where to go? Does it even matter anymore? The prison of your own making–a place you&#39;ve condemmed yourself to for life everlasting. 
+You leave after a while to [[Go right]], heading back to the downtown area. </tw-passagedata><tw-passagedata pid="40" name="Go right" tags="" position="2425,1075" size="100,100">The maw of the city reaches out to you, threatening to swallow you whole if you lose your way. How will you know where to go? Does it even matter anymore? The prison of your own making–a place you&#39;ve condemmed yourself to for life everlasting. 
 (text-style:&quot;blur&quot;)[Where will you go?]
 
-(align: &quot;==&gt;&quot;)[[go right again]] [[turn left]]</tw-passagedata><tw-passagedata pid="43" name="go right again" tags="" position="2600,900" size="100,100">You pass the building that mirrors the one you work at. This one, however, is a husk of decay. You shutter, thinking about how you always have returned here: 
+(align: &quot;==&gt;&quot;)[[go right again]] [[turn left]]</tw-passagedata><tw-passagedata pid="41" name="go right again" tags="" position="2625,1050" size="100,100">You pass the building that mirrors the one you work at. This one, however, is a husk of decay. You shutter, thinking about how you always have returned here: 
 
 &amp;emsp;Day after day. 
 &amp;emsp;&amp;emsp;Week after week. 
@@ -329,9 +333,9 @@ You leave after a while to [[Go right]], heading back to the downtown area. </tw
 
 You turn away from this place, gulity that you loathe it so. The people you work with aren&#39;t bad and it pays well. The guilt you carry with you eats at your heart. 
 
-(align: &quot;==&gt;&quot;)[[turn right]]</tw-passagedata><tw-passagedata pid="44" name="turn right" tags="" position="2800,1000" size="100,100">You always return here: a bench on the side walk. Empty storefronts echo the (text-style:&quot;blur&quot;)[hollow skeleton of your frame]. You look at your reflection and (colour:black)[nothing is there. Sunken eyes reflect abyssian darkness that festeres in your heart. You feel the crushing loneliness leak from your eyes. A] (colour:yellow)[bird](text-style:&quot;smear&quot;)[–light and glowing–](colour:black)[lands on your hand. and looks up at you]   
-[[Follow the bird]] </tw-passagedata><tw-passagedata pid="45" name="turn left" tags="" position="2600,1000" size="100,100">You always return here: a bench on the side walk. Empty storefronts echo the (text-style:&quot;blur&quot;)[hollow skeleton of your frame]. You look at your reflection and (colour:black)[nothing is there. Sunken eyes reflect abyssian darkness that festeres in your heart. You feel the crushing loneliness leak from your eyes. A] (colour:yellow)[bird](text-style:&quot;smear&quot;)[–light and glowing–](colour:black)[lands on your hand. and looks up at you]   
-[[Follow the bird]] </tw-passagedata><tw-passagedata pid="46" name="G" tags="ending" position="2425,475" size="100,100">Going left takes you to the docks on the edge of the (colour: grey) [city]. Looking over the edge of the pier, you stare into frozen waves of glass–infinitely reflecting the inky darkness of the sky. Soft light bounces off the waves–you walk down and place your feet upon the sea to tentatively walk on the surface of the ocean. You lay down admist the frozen waves of time and think. Your breath is soft and low; the sky bleeds into the sea.
+(align: &quot;==&gt;&quot;)[[turn right]]</tw-passagedata><tw-passagedata pid="42" name="turn right" tags="" position="2825,1075" size="100,100">You always return here: a bench on the side walk. Empty storefronts echo the (text-style:&quot;blur&quot;)[hollow skeleton of your frame]. You look at your reflection and (colour:black)[nothing is there. Sunken eyes reflect abyssian darkness that festeres in your heart. You feel the crushing loneliness leak from your eyes. A] (colour:yellow)[bird](text-style:&quot;smear&quot;)[–light and glowing–](colour:black)[lands on your hand. and looks up at you]   
+[[Follow the bird]] </tw-passagedata><tw-passagedata pid="43" name="turn left" tags="" position="2625,1150" size="100,100">You always return here: a bench on the side walk. Empty storefronts echo the (text-style:&quot;blur&quot;)[hollow skeleton of your frame]. You look at your reflection and (colour:black)[nothing is there. Sunken eyes reflect abyssian darkness that festeres in your heart. You feel the crushing loneliness leak from your eyes. A] (colour:yellow)[bird](text-style:&quot;smear&quot;)[–light and glowing–](colour:black)[lands on your hand. and looks up at you]   
+[[Follow the bird]] </tw-passagedata><tw-passagedata pid="44" name="G" tags="ending" position="2425,575" size="100,100">Going left takes you to the docks on the edge of the (colour: grey) [city]. Looking over the edge of the pier, you stare into frozen waves of glass–infinitely reflecting the inky darkness of the sky. Soft light bounces off the waves–you walk down and place your feet upon the sea to tentatively walk on the surface of the ocean. You lay down admist the frozen waves of time and think. Your breath is soft and low; the sky bleeds into the sea.
 
 &amp;emsp;Your war
 &amp;emsp;&amp;emsp; with yourself
@@ -350,16 +354,16 @@ You are offered a choice: you can either [[Close the Book-&gt;Beginning]] or [[s
 (if: $h is &quot;MAP&quot;)[(set: $items to &quot;[[MAP]]&quot;)]\
 (if: $h is &quot;BOOK&quot;)[(set: $items to &quot;[[BOOK]]&quot;)]\
 (if: $h is &quot;FRAGMENTS&quot;)[(set: $items to &quot;[[FRAGMENTS]]&quot;)]\
-Take a look at your $items]</tw-passagedata><tw-passagedata pid="47" name="maybe turn right" tags="" position="2400,700" size="100,100">Turning right leads you down a path riddled with vines and weeds poking through the cobblestone. You remember how you used to take long walks with your dad on the shoreline–looking up at the stars above in wonder and amazement. But here, looking up, there is (Colour: black)[nothing but inky blackness]. The (Colour: black)[inky sky] (Colour: red)[bleeds] into rain falling down on you; you wipe your eyes. The abyss gapes before you and you are powerless to do anything but stand in the rain–hopeless and lost in this sinking (colour: grey)[city]. 
+Take a look at your $items]</tw-passagedata><tw-passagedata pid="45" name="maybe turn right" tags="" position="2425,775" size="100,100">Turning right leads you down a path riddled with vines and weeds poking through the cobblestone. You remember how you used to take long walks with your dad on the shoreline–looking up at the stars above in wonder and amazement. But here, looking up, there is (Colour: black)[nothing but inky blackness]. The (Colour: black)[inky sky] (Colour: red)[bleeds] into rain falling down on you; you wipe your eyes. The abyss gapes before you and you are powerless to do anything but stand in the rain–hopeless and lost in this sinking (colour: grey)[city]. 
 
 
 
-(align: &quot;==&gt;&quot;)[[continue to turn right]]</tw-passagedata><tw-passagedata pid="48" name="continue to turn right" tags="" position="2600,700" size="100,100">You find yourself walking in a circle and are close to where you started, but, while the streets look the same the buildings do not. All the street signs are familar. Sitting on one of them is a small (color: yellow)[golden bird]. You look up at the (color: yellow)[bird] while tears and rain mix in a pool at your feet. Light from the street lamps (text-style:&quot;blur&quot;)[dim] and (text-style:&quot;smear&quot;)[glow] with your breath.   
+(align: &quot;==&gt;&quot;)[[continue to turn right]]</tw-passagedata><tw-passagedata pid="46" name="continue to turn right" tags="" position="2625,775" size="100,100">You find yourself walking in a circle and are close to where you started, but, while the streets look the same the buildings do not. All the street signs are familar. Sitting on one of them is a small (color: yellow)[golden bird]. You look up at the (color: yellow)[bird] while tears and rain mix in a pool at your feet. Light from the street lamps (text-style:&quot;blur&quot;)[dim] and (text-style:&quot;smear&quot;)[glow] with your breath.   
 
 (align: &quot;=&gt;&lt;==&quot;)+(text-style:&quot;blur&quot;)[Are you seeking salvation?] 
 
 (align: &quot;=&gt;&lt;==&quot;)[[Follow the bird]] 
-(align: &quot;=&gt;&lt;==&quot;)[[Become lost]]</tw-passagedata><tw-passagedata pid="49" name="Become lost" tags="ending" position="2525,175" size="100,100">The salvation you seek won’t come, 
+(align: &quot;=&gt;&lt;==&quot;)[[Become lost]]</tw-passagedata><tw-passagedata pid="47" name="Become lost" tags="ending" position="2625,275" size="100,100">The salvation you seek won’t come, 
 (align: &quot;==&gt;&quot;)[rain falling like tears on the window pane.] 
 Your story is almost done. 
 
@@ -376,7 +380,7 @@ Feeling empty and lost in this accursed sublime.
 
 Nowhere left to look, 
 [[Close the Book-&gt;Beginning]]
-</tw-passagedata><tw-passagedata pid="50" name="MAP" tags="UI" position="1125,1675" size="200,200">   
+</tw-passagedata><tw-passagedata pid="48" name="MAP" tags="UI" position="1225,1775" size="200,200">   
 &lt;img src=&quot;https://github.com/keywi/Portfolio/blob/main/maps/sogmapv4.png.png?raw=true&quot; usemap=&quot;#image-map&quot;/&gt;
 
 &lt;map name=&quot;image-map&quot;&gt;
@@ -408,13 +412,13 @@ Nowhere left to look,
 
 &lt;!-- code created by Andy Phelps : https://andyworld.io/toybox/twine_image_map/ --&gt;
         
-</tw-passagedata><tw-passagedata pid="51" name="Credits" tags="UI" position="825,1675" size="200,200">This was made possible with these resources:
+</tw-passagedata><tw-passagedata pid="49" name="Credits" tags="UI" position="825,1775" size="200,200">This was made possible with these resources:
 
 twine image map : https://andyworld.io/toybox/twine_image_map/ Andy Phelps 
 
-Drop down menu: https://www.reddit.com/r/twinegames/comments/chwwqw/harlowe_302_dropdown_question/</tw-passagedata><tw-passagedata pid="52" name="sail" tags="" position="2800,500" size="100,100">You look out to the ocean of glass, stretched out before you in cold emptiness.  The wind calls your name on the distant horizon and you feel compelled to walk out on the ice. Taking your first steps into the unknown, you feel cold. Your bones ache and you shiver–cursing the cold once more. You scan the horizon looking for something, maybe someone, to save you from the cold. Off in the distance, you see a faint flash of color. A lone piece of (colour: red)[fabric] clinging to drift wood catches your attention. You start to make your way towards it–(text-style:&quot;blur&quot;)[in some sort of daze]–hoping that this will give you the [[salvation]] you long for.
+Drop down menu: https://www.reddit.com/r/twinegames/comments/chwwqw/harlowe_302_dropdown_question/</tw-passagedata><tw-passagedata pid="50" name="sail" tags="" position="2825,575" size="100,100">You look out to the ocean of glass, stretched out before you in cold emptiness.  The wind calls your name on the distant horizon and you feel compelled to walk out on the ice. Taking your first steps into the unknown, you feel cold. Your bones ache and you shiver–cursing the cold once more. You scan the horizon looking for something, maybe someone, to save you from the cold. Off in the distance, you see a faint flash of color. A lone piece of (colour: red)[fabric] clinging to drift wood catches your attention. You start to make your way towards it–(text-style:&quot;blur&quot;)[in some sort of daze]–hoping that this will give you the [[salvation]] you long for.
 
-A single tear rolls down your cheek. You can continue to walk forward on the frozen surface of your [[emotions]]. </tw-passagedata><tw-passagedata pid="53" name="salvation" tags="" position="3400,700" size="100,100">The waves stretch out before you, the (colour: red)[fabric] within your grasp. As you get closer, the (colour: red)[fabric] begins to resemble a blanket you had when you were younger. The sea seems smaller than before–almost as if you are on the surface of a lake instead of the vast ocean you found. The memories wash over (text-style:&quot;blur&quot;)[you] and you (text-style:&quot;blur&quot;)[fade], again and again into the droplets of time that encompass your being. You are fragments of every person you gave your heart too–giving little bits of yourself away and away and away. You are a shell of your former self, but this isn’t the worst thing. You can bloom into something new without forgetting yourself. It is hard, to rebuild, but rebuild you shall. Into the fabric of the waves and the lake&#39;s shore
+A single tear rolls down your cheek. You can continue to walk forward on the frozen surface of your [[emotions]]. </tw-passagedata><tw-passagedata pid="51" name="salvation" tags="" position="3425,775" size="100,100">The waves stretch out before you, the (colour: red)[fabric] within your grasp. As you get closer, the (colour: red)[fabric] begins to resemble a blanket you had when you were younger. The sea seems smaller than before–almost as if you are on the surface of a lake instead of the vast ocean you found. The memories wash over (text-style:&quot;blur&quot;)[you] and you (text-style:&quot;blur&quot;)[fade], again and again into the droplets of time that encompass your being. You are fragments of every person you gave your heart too–giving little bits of yourself away and away and away. You are a shell of your former self, but this isn’t the worst thing. You can bloom into something new without forgetting yourself. It is hard, to rebuild, but rebuild you shall. Into the fabric of the waves and the lake&#39;s shore
 
 (text-rotate:45)+(text-style:&quot;bold&quot;)[you] 
 
@@ -423,7 +427,7 @@ A single tear rolls down your cheek. You can continue to walk forward on the fro
 (text-rotate:240)+(text-style:&quot;blur&quot;)  [in the] 
 (text-rotate:45)+(text-style:&quot;blur&quot;) [whispers] 
 (text-rotate:45)+(text-style:&quot;blur&quot;)[of] 
-[[time]]. </tw-passagedata><tw-passagedata pid="54" name="FRAGMENTS" tags="UI" position="1700,1700" size="200,200">
+[[time]]. </tw-passagedata><tw-passagedata pid="52" name="FRAGMENTS" tags="UI" position="1625,1775" size="200,200">
 (if: $serenity is true) + (font: &quot;Courier New&quot;) [^^December 2016^^
 The snow falls softly on the ground outside the window. I look out and feel the cold air pressing on the glass, as if it is threatening to break in. I am unsure of my plan for the day–rest of my life. I sit in my room in my small apartment. This is my first apartment since moving out of my parents’ place. I miss them but they are only a short drive away. It is around 7 am; I fell asleep early last night after work. I have some projects to complete for my own personal happiness, but I doubt I’ll ever do them. 
 I just finished my fall semester of my junior year. I should start planning my future soon, but I don’t know what I want. I rolled over from the window and check my phone: two missed calls from him. I decided to ignore that for the moment. I struggled to get out of bed, but the pain in my back is overwhelming. I scrolled though my phone– deciding what to order for food. My shipment of groceries hadn’t arrived yet and I needed to eat after all. A small diner caught my eye and I ordered some French toast and eggs. I laid my phone down on my desk and started up my computer to see what my tasks were for the day. Work has been slow since the semester ended; no one needs an English tutor over winter break. After a while, I heard a knock on my door: the delivery driver. I asked him to leave it at the door and thanked him for delivering it. He shrugged and did as I asked. I opened the door and steadily reached out for the bag of food, hastily grabbing it and retreating indoors.  The food was good and warm–exactly what I was craving. 
@@ -444,7 +448,7 @@ I haven’t written in a while. I miss writing poetry. I think I will continue w
 (if: $hope is true) + (font: &quot;Courier New&quot;) [December 2017
 I feel… empty. I don&#39;t know what changed these past few months, but I feel less and less safe about walking outside. I no longer lay on the ground and look to the future in the stars. I am no longer hopeful that things will get better. I feel as if it&#39;s no longer about &#39;getting better,&#39; but more so getting used to it. I don’t know how to feel about this realization. I hope it is just a part of an edgy phase, or whatever. I hope to feel something soon. I tried to write and finish that book of poetry, The Painted Ideal. Nothing came to mind. Therefore, I did not write. 
 It feels as if I am fading away before my life really begins. Is this what apathy feels like? I don’t know if my therapist is helping much. I talk about the feelings I’m experiencing and they simply respond with more platitudes. Maybe I should try yoga? These are all problems for the future. I’ll worry about them when I have time. Winter break is here and I can safely stay indoors without people bothering me. It’s been different… I just don’t know anymore. I don’t think there’s anything left to write.]
-</tw-passagedata><tw-passagedata pid="55" name="Saint Serenity" tags="ending" position="3700,200" size="100,100">Hey do you ever feel empty?
+</tw-passagedata><tw-passagedata pid="53" name="Saint Serenity" tags="ending" position="3725,275" size="100,100">Hey do you ever feel empty?
 (align: &quot;==&gt;&quot;)[yeah, a fair amount]
 (align: &quot;==&gt;&quot;)[are you ok?]
 yeah... think so. just feelin&#39; empty
@@ -465,16 +469,19 @@ Yeah, I like your friends they are very nice.
 (if: $h is &quot;MAP&quot;)[(set: $items to &quot;[[MAP]]&quot;)]\
 (if: $h is &quot;BOOK&quot;)[(set: $items to &quot;[[BOOK]]&quot;)]\
 (if: $h is &quot;FRAGMENTS&quot;)[(set: $items to &quot;[[FRAGMENTS]]&quot;)]\
-Take a look at your $items]</tw-passagedata><tw-passagedata pid="56" name="emotions" tags="" position="2800,700" size="100,100">You turn on the (text-style:&quot;smear&quot;)[light] in your small apartment, relieved that you remembered to buy (text-style:&quot;smear&quot;)[light] bulbs. It is the weekend; you have no plans like always. You keep your curtains closed - choosing to open your phone for (text-style:&quot;fade-in-out&quot;)[light]. You lay in bed for a few [hours]&lt;hours| or [seconds]&lt;seconds|. You only decide to get out of bed to plug in your phone. You get hungry after a while and decide to order food, but are torn on what to order: [[Pizza]] or [[Sushi]]. You waffle back and forth for a while but eventually make a decision. You await for the order to be confirmed and then toss your phone to the bed putting on music as you do so.     
+Take a look at your $items]</tw-passagedata><tw-passagedata pid="54" name="emotions" tags="" position="2825,775" size="100,100">You turn on the (text-style:&quot;smear&quot;)[light] in your small apartment, relieved that you remembered to buy (text-style:&quot;smear&quot;)[light] bulbs. It is the weekend; you have no plans like always. You keep your curtains closed - choosing to open your phone for (text-style:&quot;fade-in-out&quot;)[light]. You lay in bed for a few [hours]&lt;hours| or [seconds]&lt;seconds|. You only decide to get out of bed to plug in your phone. You get hungry after a while and decide to order food, but are torn on what to order: [[Pizza]] or [[Sushi]]. You waffle back and forth for a while but eventually make a decision. You await for the order to be confirmed and then toss your phone to the bed putting on music as you do so.     
 
 (click:?hours) [(replace:?hours) [seconds]]
 (click:?seconds) [(replace:?seconds) [hours]]
-</tw-passagedata><tw-passagedata pid="57" name="Pizza" tags="" position="3000,800" size="100,100">You ordered a small salad with extra tomatoes and a (hover-style:(text-color:red) + (text-style:&#39;blur&#39;)) + (link:&quot;small margarita pizza&quot;)
+</tw-passagedata><tw-passagedata pid="55" name="Pizza" tags="" position="3025,875" size="100,100">You ordered a small salad with extra tomatoes and a (hover-style:(text-color:red) + (text-style:&#39;blur&#39;)) + (link:&quot;small margarita pizza&quot;)
 [extra tomatoes.]
- You love tomatoes on food but will never eat them alone. As you wait for your food to get there, you lay on your hardwood floors and stare at the ceiling. The world is (text-style: &quot;blur&quot;)[quiet and still]; you lay there drifting away (text-style: &quot;blur&quot;)[fading into the nothingness] until your door bell rings. You croak–asking the delivery driver to leave the food at the door. They comply and after a few moments you get up and retrieve your food; this all seems extremely familiar from fragments of your memory. You sit on your bed looking out at the city skyline eating your food. Things have been going okay recently but often [[don’t feel quite right]].</tw-passagedata><tw-passagedata pid="58" name="Sushi" tags="" position="3000,600" size="100,100">You decided to order sushi. You got a lunch roll special chosen by the chef on duty and a cucumber salad. You love (hover-style:(text-color:red) + (text-style:&#39;blur&#39;)) + (link:&quot;cucumber salad&quot;)
-[extra tomatoes]; something about the rice vinegar agrees with you even though you normally hate cucumber. You can’t stand cucumber water. As you wait for your food to get there, you lay on your hardwood floors and stare at the ceiling. The world is (text-style: &quot;blur&quot;)[quiet and still]; you lay there drifting away (text-style: &quot;blur&quot;)[fading into the nothingness] until your door bell rings. You croak–asking the delivery driver to leave the food at the door. They comply and after a few moments you get up and retrieve your food; this all seems extremely familiar from fragments of your memory. You sit on your bed looking out at the city skyline eating your food. Things have been going okay recently but often [[don’t feel quite right]].</tw-passagedata><tw-passagedata pid="59" name="don’t feel quite right" tags="" position="3200,700" size="100,100">You look out at the window and feel lost. Somewhere echoing in your mind, you hear your boss asking [[Did you finish the report I asked for this morning?]] Shaking your head, you try to push it from you mind.
+ You love tomatoes on food but will never eat them alone. As you wait for your food to get there, you lay on your hardwood floors and stare at the ceiling. The world is (text-style: &quot;blur&quot;)[quiet and still]; you lay there drifting away (text-style: &quot;blur&quot;)[fading into the nothingness] until your door bell rings. You croak–asking the delivery driver to leave the food at the door. They comply and after a few moments you get up and retrieve your food; this all seems extremely familiar from fragments of your memory. You sit on your bed looking out at the city skyline eating your food. Things have been going okay recently but often [[don’t feel quite right]].</tw-passagedata><tw-passagedata pid="56" name="Sushi" tags="" position="3025,675" size="100,100">You decided to order sushi. You got a lunch roll special chosen by the chef on duty and a (hover-style:(text-color:red) + (text-style:&#39;blur&#39;)) + (link:&quot;cucumber salad&quot;)
+[extra tomatoes]. You love (hover-style:(text-color:red) + (text-style:&#39;blur&#39;)) + (link:&quot;cucumber salad&quot;)
+[extra tomatoes]; something about the rice vinegar agrees with you even though you normally (hover-style:(text-color:red) + (text-style:&#39;blur&#39;)) + (link:&quot;cucumber salad&quot;)
+[extra tomatoes]. You can’t stand (hover-style:(text-color:red) + (text-style:&#39;blur&#39;)) + (link:&quot;cucumber salad&quot;)
+[ not having extra tomatoes]. As you wait for your food to get there, you lay on your hardwood floors and stare at the ceiling. The world is (text-style: &quot;blur&quot;)[quiet and still]; you lay there drifting away (text-style: &quot;blur&quot;)[fading into the nothingness] until your door bell rings. You croak–asking the delivery driver to leave the food at the door. They comply and after a few moments you get up and retrieve your food; this all seems extremely familiar from fragments of your memory. You sit on your bed looking out at the city skyline eating your food. Things have been going okay recently but often [[don’t feel quite right]].</tw-passagedata><tw-passagedata pid="57" name="don’t feel quite right" tags="" position="3225,775" size="100,100">You look out at the window and feel lost. Somewhere echoing in your mind, you hear your boss asking [[Did you finish the report I asked for this morning?]] Shaking your head, you try to push it from you mind.
 It starts raining outside. The rain pitter-patters against the window.
-‘[[Nothing is Real when it is Raining,-&gt;D]]’ you whisper to yourself. Your world is growing darker. You had tasks you wanted to finish today.  You became lost in your own mind. Things have been better recently. You go outside–which is better than a few years ago. The rain falls softly outside as you pick up the book from the nightstand. This was given to you as a gift a few years ago, from someone who was important to you, but you don’t know how to start talking to them again. You flip through the book, looking for something to save you, be your [[serenity]], but you will settle for your [[salvation]]. </tw-passagedata><tw-passagedata pid="60" name="serenity" tags="ending" position="3400,175" size="100,100">Each night when you return home, you [[Close the Book-&gt;Beginning]].
+‘[[Nothing is Real when it is Raining,-&gt;D]]’ you whisper to yourself. Your world is growing darker. You had tasks you wanted to finish today.  You became lost in your own mind. Things have been better recently. You go outside–which is better than a few years ago. The rain falls softly outside as you pick up the book from the nightstand. This was given to you as a gift a few years ago, from someone who was important to you, but you don’t know how to start talking to them again. You flip through the book, looking for something to save you, be your [[serenity]], but you will settle for your [[salvation]]. </tw-passagedata><tw-passagedata pid="58" name="serenity" tags="ending" position="3425,275" size="100,100">Each night when you return home, you [[Close the Book-&gt;Beginning]].
 
 
 
@@ -486,13 +493,13 @@ It starts raining outside. The rain pitter-patters against the window.
 (if: $h is &quot;MAP&quot;)[(set: $items to &quot;[[MAP]]&quot;)]\
 (if: $h is &quot;BOOK&quot;)[(set: $items to &quot;[[BOOK]]&quot;)]\
 (if: $h is &quot;FRAGMENTS&quot;)[(set: $items to &quot;[[FRAGMENTS]]&quot;)]\
-Take a look at your $items]</tw-passagedata><tw-passagedata pid="61" name="time" tags="" position="3700,700" size="100,100">You have always worried about running out of time. Even when you were young; you worried that you would lose track of your time and miss something. Things wouldn’t be perfect and you’d miss something. It took too much time to accomplish what you wanted so you scaled back your scope of tasks. You eventually lost interest in your ambition and then your own life. It is a sad state, running out of time to care and be present in your own life. Now you are just an observer to your own life, listlessly watching on the sands of the shore. This is the same shore you once stood on while on the outskirts of the (colour:grey)[city of glass].  This shore is the one you visit from time to time, in your dreams–the dreams of faraway places and times where you are a better person. Better in so many ways; life, relationships, career, whatever you’d like it to be in that time.  You leave a small piece of yourself on that shore each time you visit, [[sinking]] deep into the [[sand]].</tw-passagedata><tw-passagedata pid="62" name="sand" tags="" position="3900,575" size="100,100">The sand falls from the hourglass–time slipping away from you once more. You sit at your desk in your office, looking out the window. It is early morning; you don’t have much work to do but hope you can keep yourself looking busy. The day ticks by, moving from one glass to another. Over and over in a loop that somehow is more tedious than soothing. The day loops over and over–you getting up to walk dead-eyed into your job and walk home dead-eyed into your apartment. Things might change soon, however; you see on the news talks of a rising storm in the East. A deadly [[plague]] to wreak havoc on the world. As of late, you find it harder and harder to go outside. And sands of time ever drip down towards oblivion and you feel yourself sinking ever further into your depression and anxiety. 
+Take a look at your $items]</tw-passagedata><tw-passagedata pid="59" name="time" tags="" position="3725,775" size="100,100">You have always worried about running out of time. Even when you were young; you worried that you would lose track of your time and miss something. Things wouldn’t be perfect and you’d miss something. It took too much time to accomplish what you wanted so you scaled back your scope of tasks. You eventually lost interest in your ambition and then your own life. It is a sad state, running out of time to care and be present in your own life. Now you are just an observer to your own life, listlessly watching on the sands of the shore. This is the same shore you once stood on while on the outskirts of the (colour:grey)[city of glass].  This shore is the one you visit from time to time, in your dreams–the dreams of faraway places and times where you are a better person. Better in so many ways; life, relationships, career, whatever you’d like it to be in that time.  You leave a small piece of yourself on that shore each time you visit, [[sinking]] deep into the [[sand]].</tw-passagedata><tw-passagedata pid="60" name="sand" tags="" position="3925,675" size="100,100">The sand falls from the hourglass–time slipping away from you once more. You sit at your desk in your office, looking out the window. It is early morning; you don’t have much work to do but hope you can keep yourself looking busy. The day ticks by, moving from one glass to another. Over and over in a loop that somehow is more tedious than soothing. The day loops over and over–you getting up to walk dead-eyed into your job and walk home dead-eyed into your apartment. Things might change soon, however; you see on the news talks of a rising storm in the East. A deadly [[plague]] to wreak havoc on the world. As of late, you find it harder and harder to go outside. And sands of time ever drip down towards oblivion and you feel yourself sinking ever further into your depression and anxiety. 
 
 
 
 
 
-</tw-passagedata><tw-passagedata pid="63" name="plague" tags="" position="4100,600" size="100,100">The end of the road offers you a few choices: will you decide here whether to live in the story augmented to your own reality, or do you accept your lot in life? Do you work for hours on end to improve yourself for some unattainable nirvana? Surrealistic ennui plagues your waking days and your sleepless nights are haunted by the feelings of **will I ever be good enough?** You try over and over to feel like you belong in this world. Ever since you were young, you looked for a place where you belonged. Each time you found a place, you thought it might be the one. Something happens–something //always// happens, and you feel left out in the cold. 
+</tw-passagedata><tw-passagedata pid="61" name="plague" tags="" position="4125,675" size="100,100">The end of the road offers you a few choices: will you decide here whether to live in the story augmented to your own reality, or do you accept your lot in life? Do you work for hours on end to improve yourself for some unattainable nirvana? Surrealistic ennui plagues your waking days and your sleepless nights are haunted by the feelings of **will I ever be good enough?** You try over and over to feel like you belong in this world. Ever since you were young, you looked for a place where you belonged. Each time you found a place, you thought it might be the one. Something happens–something //always// happens, and you feel left out in the cold. 
 
 
 (text-rotate:25)+(text-style:&quot;bold&quot;)[What is wrong with you?] 
@@ -510,9 +517,9 @@ Take a look at your $items]</tw-passagedata><tw-passagedata pid="61" name="time"
 (if: $h is &quot;MAP&quot;)[(set: $items to &quot;[[MAP]]&quot;)]\
 (if: $h is &quot;BOOK&quot;)[(set: $items to &quot;[[BOOK]]&quot;)]\
 (if: $h is &quot;FRAGMENTS&quot;)[(set: $items to &quot;[[FRAGMENTS]]&quot;)]\
-Take a look at your $items]</tw-passagedata><tw-passagedata pid="64" name="sinking" tags="" position="3900,800" size="100,100">Sinking further into despair, you find yourself asking specific questions:
+Take a look at your $items]</tw-passagedata><tw-passagedata pid="62" name="sinking" tags="" position="3900,900" size="100,100">Sinking further into despair, you find yourself asking specific questions:
 Do you [[Turn back]] to avoid your problems? 
-Do you [[Listen]] and hope to understand why this is happening?
+Do you Listen and hope to understand why this is happening?
 Or do you give up and [[close the book?-&gt;BOOK]]   
 </tw-passagedata></tw-storydata>
 
